@@ -1,0 +1,44 @@
+.section-one {
+  height: 370px;
+}
+
+footer {
+  .container {
+    .row {
+      .col {
+        .mail-input {
+          a {
+            left: 60%;
+            transform: translateY(-100%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-one {
+    height: 330px;
+  }
+  footer {
+    .container {
+      .row {
+        .col {
+          .mail-input {
+            a {
+              left: 69%;
+              transform: translateY(-100%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-one {
+    height: 300px;
+  }
+}
